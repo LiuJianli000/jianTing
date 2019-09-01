@@ -33,10 +33,12 @@ audio.autoplay = true 自动播放
 
 问题二：进度条滚动不匀，一点点卡顿的感觉
     这里用到 setInterval 按指定周期（以毫秒计算）来调用函数或表达式，代码实现：
+    ```
         clearInterval(_this.statusClock)  
         _this.statusClock = setInterval(function(){
             _this.updateStatus()
         },1000)
+    ```
 
 #### 收获：
 首先，使我更加熟练的使用 jQuery ，在这个项目中 我充分利用到前面所学的内容。我发选理论的学习并不能满足对某种技术的掌握，必须要通过实践。然后，然我在解决问题的时候更有耐心，提升了自我解决问题的能力。
