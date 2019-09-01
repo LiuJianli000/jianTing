@@ -33,6 +33,7 @@ audio.autoplay = true 自动播放
 
 问题二：进度条滚动不匀，一点点卡顿的感觉
     这里用到 setInterval 按指定周期（以毫秒计算）来调用函数或表达式，代码实现：
+    
     ```
         clearInterval(_this.statusClock)  
         
