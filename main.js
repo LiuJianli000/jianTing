@@ -84,7 +84,7 @@ var Footer = {
 
     render: function () {
         var _this = this
-        $.getJSON('http://api.jirengu.com/fm/getChannels.php').done(function (ret) {
+        $.getJSON('https://api.jirengu.com/fm/getChannels.php').done(function (ret) {
             console.log(ret)
             _this.renderFooter(ret.channels)
         }).fail(function () {
