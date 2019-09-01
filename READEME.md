@@ -35,6 +35,7 @@ audio.autoplay = true 自动播放
     这里用到 setInterval 按指定周期（以毫秒计算）来调用函数或表达式，代码实现：
     ```
         clearInterval(_this.statusClock)  
+        
         _this.statusClock = setInterval(function(){
             _this.updateStatus()
         },1000)
