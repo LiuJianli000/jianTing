@@ -15,16 +15,13 @@
 引入一个动画插件，实现 $.fn.boomText = function(type){ ... }，然后$(element).boomText()
 
 4. 数学函数的使用
-
 Math.floor()
 parse.Float()
 
 5. 加锁机制
-
 可以规定一段代码的是否开始执行，这里主要用在歌单的滚动翻页（判断是否滚动到最后 isToEnd，和 是否处于开始的位置 isToStart）
 
 6. 音频API
-
 拿到音乐数据后
 new Audio() 声明一个音频
 audio.autoplay = true 自动播放
