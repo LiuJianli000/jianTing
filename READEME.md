@@ -29,6 +29,7 @@ audio.autoplay = true 自动播放
 #### 遇到的问题
 问题一：歌单列表如何在最后一页展示出来后，右键按钮不会继续实现翻页
     这里我们给右键按钮加一个是否滚动到最后的条件，具体代码：
+    
     if (parseFloat(_this.$box.width()) - parseFloat(_this.$ul.css('left')) >= parseFloat(_this.$ul.css('width')))
 
 问题二：进度条滚动不匀，一点点卡顿的感觉
