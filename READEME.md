@@ -15,7 +15,7 @@
 引入一个动画插件，实现 $.fn.boomText = function(type){ ... }，然后$(element).boomText()
 
 4. 数学函数的使用
-Math.floor()
+Math.floor()、
 parse.Float()
 
 5. 加锁机制
@@ -23,7 +23,7 @@ parse.Float()
 
 6. 音频API
 拿到音乐数据后
-new Audio() 声明一个音频
+new Audio() 声明一个音频、
 audio.autoplay = true 自动播放
 
 #### 遇到的问题
@@ -42,7 +42,7 @@ audio.autoplay = true 自动播放
 首先，使我更加熟练的使用 jQuery ，在这个项目中 我充分利用到前面所学的内容。我发选理论的学习并不能满足对某种技术的掌握，必须要通过实践。然后，然我在解决问题的时候更有耐心，提升了自我解决问题的能力。
 
 #### 技术栈关键词：
-jQuery
-CSS3
-响应式
+jQuery、
+CSS3、
+响应式、
 iconfont
